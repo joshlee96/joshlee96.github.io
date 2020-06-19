@@ -3,18 +3,34 @@ html {
   min-height: 100%;
 }
 
-.nav-link {
+.menu {
+  float: right;
+  text-align: right;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+.menu > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+}
+
+.menu-item {
+  display: inline-block;
   color: #000 !important;
 }
 
-.nav-link:hover {
+.menu-item:hover {
   color: #0275d8 !important;
-  transition: .5s
+  transition: .5s;
+  text-decoration: none;
 }
 
 img {
   border-radius: 50%;
-  height: 250px;
+  height: 175px;
   border: 5px solid #000;
   margin-top: 10%;
   margin-bottom: 10%;
